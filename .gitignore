@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLLs
+__pycache__/
+*.py[cod]
+*$py.class
+bin/
+obj/
+
+# Environments & secrets
+.env
+*.env.local
+venv/
+.venv/
+certs/*.pem
+certs/*.key
+certs/*.crt
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Database & runtime data
+*.sqlite3
+pgdata/
+redisdata/
